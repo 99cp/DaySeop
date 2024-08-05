@@ -32,6 +32,10 @@
 - Apache Tomcat
 - PostgreSQL
 
+## 팀 구성
+
+- 총 2명의 팀원으로 구성
+
 ## 담당 역할
 
 - Python Selenium을 활용한 웹 스크래핑 및 데이터 정렬
