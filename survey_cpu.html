@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>survey page</title>
+    <!-- customk css lin -->
+    <link rel="stylesheet" type="text/css" href="/ptgr/survey1.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-0]").click(function()
+    {
+        radioone();
+    })
+});
+function radioone(){
+    $('#radio-btn-1').animate({
+        opacity:'1'
+    })
+}
+</script>
+    
+<script type="text/javascript">
+        $(document).ready(function(){
+        $("input:radio[name=radio-group-1]").click(function()
+        {
+            radiotwo();
+        })
+    });
+    function radiotwo(){
+        $('#radio-btn-2').animate({
+            opacity:'1'
+        })
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-2]").click(function()
+    {
+        radiothree();
+    })
+});
+function radiothree(){
+    $('#radio-btn-3').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-3]").click(function()
+    {
+        radiofour();
+    })
+});
+function radiofour(){
+    $('#radio-btn-4').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-4]").click(function()
+    {
+        radiofive();
+    })
+});
+function radiofive(){
+    $('#radio-btn-5').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-5]").click(function()
+    {
+        radiosix();
+    })
+});
+function radiosix(){
+    $('#radio-btn-6').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-6]").click(function()
+    {
+        radioseven();
+    })
+});
+function radioseven(){
+    $('#radio-btn-7').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $("input:radio[name=radio-group-7]").click(function()
+    {
+        radioeight();
+    })
+});
+function radioeight(){
+    $('#radio-btn-8').animate({
+        opacity:'1'
+    })
+}
+</script>
+
+
+
+
+</head>
+
+<body>
+    <section id="container">
+    <div class="head">
+        <p id="description"><i></i></p>
+    </div>
+
+    <!-- code of survey form is here -->
+
+    <form action="/sorting_cpu.jsp" id="survey-form" method="post" >
+        <br>
+        <!-- <div style="border: 1px solid black; float: left; width: 33%;"> -->
+        <div>
+            <h2>1번 질문</h2>
+            <div>      
+                  
+            </div><br>
+        
+            <label>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" value="1" required> 매우 그렇다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" value="2" required> 그렇다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" value="3" required> 보통<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" value="4" required> 아니다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" value="5" required> 매우 아니다<br>
+        </label>
+            
+        </div>
+
+        <br>
+
+        <!-- <div id="radio-btn-1" class="buttonTwo" style="border: 1px solid black; float: left; width: 33%;"> -->
+        <div id="radio-btn-1" class="buttonTwo">
+            <h2>2번 질문</h2>
+            <div>
+                컴퓨터를 쓸 때 프로그램을 3개이상 켜두고 사용한다. (CPU)
+            </div><br>
+
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <!-- <div id="radio-btn-2" class="buttonThree" style="border: 1px solid black; float: left; width: 33%;"> -->
+        <br>
+
+        <div id="radio-btn-2" class="buttonThree">
+            <h2>3번 질문</h2>
+            <div>
+                컴퓨터를 할 때 1080p 화질 이상으로 시청한다. (GPU)
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br>
+
+        <div id="radio-btn-3" class="buttonFour">
+            <h2>4번 질문</h2>
+            <div>
+                컴퓨터 할 때 화면을 많이 틀어놓고 한다. 
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-3"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-3"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-3"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-3"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-3"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br>
+
+        <div id="radio-btn-4" class="buttonFive">
+            <h2>5번 질문</h2>
+            <div>
+                컴퓨터 할 때 화면을 많이 틀어놓고 한다.
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-4"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-4"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-4"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-4"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-4"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br>
+
+        <div id="radio-btn-5" class="buttonSix">
+            <h2>6번 질문</h2>
+            <div>
+                컴퓨터 할 때 화면을 많이 틀어놓고 한다.
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-5"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-5"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-5"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-5"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-5"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br>
+
+        <div id="radio-btn-6" class="buttonSeven">
+            <h2>7번 질문</h2>
+            <div>
+                컴퓨터 할 때 화면을 많이 틀어놓고 한다.
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-6"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-6"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-6"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-6"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-6"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br>
+
+        <div id="radio-btn-7" class="buttonEight">
+            <h2>8번 질문</h2>
+            <div>
+                컴퓨터 할 때 화면을 많이 틀어놓고 한다.
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-7"  value="1" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-7"  value="2" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-7"  value="3" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-7"  value="4" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-7"  value="5" required> 매우 아니다<br>
+            </label>
+        </div>
+
+        <br><br><br><br><br>
+        
+        <button id="btn">다음</button>
+    </form>
+    </section>
+
+</body>
+
+</html>

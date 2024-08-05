@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>survey page</title>
+    <!-- customk css lin -->
+    <link rel="stylesheet" type="text/css" href="/survey1.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+            <script type="text/javascript">
+                $(document).ready(function(){
+                $("input:radio[name=radio-group-0]").click(function()
+                {
+                    radioone();
+                })
+            });
+            function radioone(){
+                $('#radio-btn-1').animate({
+                    opacity:'1'
+                })
+            }
+        </script>
+    
+            <script type="text/javascript">
+                    $(document).ready(function(){
+                    $("input:radio[name=radio-group-1]").click(function()
+                    {
+                        radiotwo();
+                    })
+                });
+                function radiotwo(){
+                    $('#radio-btn-2').animate({
+                        opacity:'1'
+                    })
+                }
+            </script>
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                $("input:radio[name=radio-group-2]").click(function()
+                {
+                    radiothree();
+                })
+            });
+            function radiothree(){
+                $('#radio-btn-3').animate({
+                    opacity:'1'
+                })
+            }
+            </script>
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                $("input:radio[name=radio-group-3]").click(function()
+                {
+                    radiofour();
+                })
+            });
+            function radiofour(){
+                $('#radio-btn-4').animate({
+                    opacity:'1'
+                })
+            }
+            </script>
+
+
+
+
+</head>
+
+<body>
+    <section id="container">
+    <div class="head">
+        <h1 id="title">RAM</h1>
+        <p id="description"><i></i></p>
+    </div>
+
+    <!-- code of survey form is here -->
+
+    <form action="/sorting_ram.jsp" id="survey-form" method="post">
+        <br> <br>
+        <!-- <div style="border: 1px solid black; float: left; width: 33%;"> -->
+        <div style="float: left;">
+            <h2>1번 질문</h2>
+            <div>      
+                로딩이 빨랐으면 좋겠다. (램속도)
+            </div><br>
+        
+            <label>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" id="radio-btn-0" value="1" required> 매우 그렇다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" id="radio-btn-0" value="2" required> 그렇다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" id="radio-btn-0" value="3" required> 보통<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" id="radio-btn-0" value="4" required> 아니다<br>
+            <input type="radio" class="buttonOne" style="width: 23px; height: 23px;" name="radio-group-0" id="radio-btn-0" value="5" required> 매우 아니다<br>
+        </label>
+            
+        </div>
+
+        <!-- <div id="radio-btn-1" class="buttonTwo" style="border: 1px solid black; float: left; width: 33%;"> -->
+
+
+<!-- 여기서부터 지운부분 -->
+        <!-- <div id="radio-btn-1" class="buttonTwo" style="float: left; width: 33%;">
+            <h2>2번 질문</h2>
+            <div>
+                모니터를 2대 이상 사용한다.
+            </div><br>
+
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="0" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="1" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="2" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="3" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-1"  value="4" required> 매우 아니다<br>
+            </label>
+        </div> -->
+<!-- 여기까지 지운부분 -->
+
+
+        <!-- <div id="radio-btn-2" class="buttonThree" style="border: 1px solid black; float: left; width: 33%;"> -->
+
+
+<!-- 여기서부터 지운부분 -->
+        <!-- <div id="radio-btn-2" class="buttonThree" style="float: left; width: 33%;">
+            <h2>3번 질문</h2>
+            <div>
+                고사양 프로그램을 사용한다.
+            </div><br>
+            
+            <label>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="0" required> 매우 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="1" required> 그렇다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="2" required> 보통<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="3" required> 아니다<br>
+            <input type="radio" style="width: 23px; height: 23px;" name="radio-group-2"  value="4" required> 매우 아니다<br>
+            </label>
+        </div> -->
+<!-- 여기까지 지운부분 -->
+     
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+
+
+
+        <!-- code of btn -->
+        <button id="btn">다음</button>
+    </form>
+    </section>
+
+</body>
+
+</html>
